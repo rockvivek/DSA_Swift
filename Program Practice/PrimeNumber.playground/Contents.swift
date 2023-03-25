@@ -1,7 +1,6 @@
 import UIKit
 
 //prime number
-
 func checkPrimeNumber(number: Int) -> Bool{
     var isPrime = true
     for i in 2 ... Int(sqrt(Double(number))) {
